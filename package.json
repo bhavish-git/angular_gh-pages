@@ -8,9 +8,11 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy":"gh-pages -d dist"
   },
   "private": true,
+  "homepage":"https://bhavish-git.github.io/angular_gh-pages",
   "dependencies": {
     "@angular/animations": "^4.2.4",
     "@angular/common": "^4.2.4",
@@ -22,6 +24,7 @@
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
     "core-js": "^2.4.1",
+    "gh-pages": "^3.1.0",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
